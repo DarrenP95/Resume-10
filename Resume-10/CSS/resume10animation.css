@@ -1,0 +1,172 @@
+@media screen and ( max-width: 992px){
+    /*  if the browser window is 992px or smaller */
+    .header {
+      display: inline-block;
+      width: 45%;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  
+    }
+    
+  }
+  @media screen and ( max-width: 768px){
+    /*  if the browser window is 768px or smaller */
+    .header {
+      display: inline-block;
+      width: 45%;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  
+    }
+    
+  }
+  
+  @media screen and (max-width: 575.98px){
+    /*  if the browser window is 575.98px or smaller */
+    .header {
+      display: inline-block;
+      width: 45%;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  
+    }}
+  #bg {
+      position: fixed; 
+      top: -50%; 
+      left: -50%; 
+      width: 200%; 
+      height: 200%;
+      background-color: rgba(255, 0, 0, 0.3)
+      
+    }
+    
+  
+  #bg img {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+      margin: auto; 
+      min-width: 50%;
+      min-height: 50%;
+     
+     background-color: rgba(255, 0, 0, 0.3)
+      
+    }
+  
+    header{ 
+    
+      text-align: center;
+      color: rgb(255, 254, 254);
+      opacity: 0.9;
+    }
+    
+  .info{
+    color:rgb(255, 254, 254);
+    opacity: 0.9;
+  }
+    
+  
+   
+  
+  
+  .footer {
+    flex:15;
+    height: 220px;
+    
+    
+    color:rgb(255, 254, 254);
+    opacity: 0.9;
+
+    text-align: center;
+    color: white;
+    
+    
+    }
+  
+  body {
+  
+    color:rgb(255, 254, 254);
+    opacity: 0.9;
+   
+  }
+
+  @keyframes MyLogo
+ {
+ 
+  0%   {border-radius: 0%;
+  }
+  25%  {border-radius: 100%;
+       }
+  50%  {transform: rotate(180deg)}
+  100% {transform: rotate(360deg);}
+}
+
+  
+  
+  
+
+
+  #linked{
+    width: 3rem;
+    margin: 2rem;
+    width: 70px;
+  height: 70px;
+  
+  animation-duration: 4s;
+  
+  animation-iteration-count: infinite;
+ 
+  
+  ;
+    }
+   #linked:hover {
+        animation-iteration-count: ease-in;
+        animation-name: MyLogo;
+      }
+    
+
+      #instagram{
+        width: 3rem;
+        margin: 2rem;
+        width: 70px;
+      height: 70px;
+      
+      animation-duration: 4s;
+      
+      animation-iteration-count: infinite;
+     
+      
+      ;
+        }
+        #instagram:hover {
+            animation-iteration-count: ease-in;
+            animation-name: MyLogo;
+          }
+          #gmail{
+            width: 3rem;
+            margin: 2rem;
+            width: 70px;
+          height: 70px;
+          
+          animation-duration: 4s;
+          
+          animation-iteration-count: infinite;
+         
+          
+          ;
+            }
+            #gmail:hover {
+                animation-iteration-count: ease-in;
+                animation-name: MyLogo;
+              }
+              .button:hover span:after {
+                opacity: 1;
+                right: 0;
+              }
+      
+    
